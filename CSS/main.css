@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    padding : 0px ;
+    margin : 0px ;
+    box-sizing: border-box;
+    font-size : 1em ;
+    scroll-behavior: smooth;
+
+}
+
+
+
+.header {
+    background-color: #f0f0f0 ;
+    width: 100%;
+    height : 4em ;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+    padding : 0px 100px ;
+    align-items: center ;
+
+}
+.logo {
+    text-decoration:none ;
+    font-size: 1.8em;
+    font-weight: 700;
+    color :#3a6cf4 ;
+    text-transform: uppercase;
+    display:inline-block ;
+    transition: .7s ease;
+  
+}
+.navegation a {
+    padding : 0em .8em ; 
+    font-size: 1.5em;
+    color: #3a6cf4;
+    font-weight: 500;
+    text-decoration: none;
+    display:inline-block ;
+    transition: .7s ease;
+
+
+}
+.navegation a:hover {
+        color: white;
+        
+        background-color: #144eee;
+        border-radius: .3em;
+        padding: .3em;
+        transform: scale(1.1);
+}
+.logo:hover {
+    color :white;
+   
+    background-color: #144eee;
+    border-radius: .3em;
+    padding :.3em;
+    transform: scale(1.1);
+
+    
+}
+.main {
+    padding-top:3em;
+    padding-left: 10em ;
+    width :100% ;
+    height :100vh;
+    display: flex ;
+    align-items: center ;
+    background-image: url("../media/my\ web\ site\ image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+}
+.main h2 {
+    color :white ;
+    font-size: 3em;
+    font-weight: 500;
+
+}
+.main h3 {
+    color :white ;
+    font-size: 2em;
+    font-weight: 600;
+    padding-left : 2em ;
+
+}
+.main h2 span {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2em;
+    color:#3a6cf4;
+    margin-top :.5em ;
+}
+.potton{
+    display: inline-block;
+    text-align :center ;
+    padding :0.5em ;
+    margin-top:3em ;
+    margin-bottom: .5em;
+    background-color: #3a6cf4 ;
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    border-radius: .5em ;
+    transition: .7s ease ;
+}
+.sothial_icons a {
+    display :inline-block ;
+    padding-right :1em;
+    font-size: 5em ;
+    color :white;
+    margin-top :1em ;
+    transition: .7s ease;
+
+}
+.pottom:hover {
+    transform: scale(1.1);
+    background-color: #144eee;
+}
+.sothial_icons a:hover {
+    transform: scale(1.1);
+
+}
+.sothial_icons a img {
+
+height :1em;
+width :1.5em ;
+
+
+}
+.my_projects h2 {
+    font-size: 3em ;
+    font-weight: 600;
+    color: #3a6cf4;
+    text-align: center;
+    margin: 2em;
+}
+.projects_cards {
+    width :90%;
+    height : auto ;
+    padding : 2em ;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-right :auto;
+    margin-left :auto;
+
+}
+.project {
+    width :27em;
+    height :40em;
+    box-shadow: 0px 5px  25px rgb(158, 155, 155);
+    background-color: white;
+    margin-bottom: 4em;
+    transition: .6s ease;
+   
+  
+}
+.thermal_project_image {
+    width :100%;
+    height :40%;
+    background-image: url("../media/thermal\ electric\ generator.jpg");
+    background-size:cover;
+    background-position:center;
+    /* background-attachment:; */
+    background-repeat: no-repeat;
+
+}
+
+.portfolio_image {
+    width: 100%;
+    height: 40%;
+    background-image: url("../media/portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-attachment:; */
+    background-repeat: no-repeat;
+
+}
+
+
+.logic_project_image {
+    width :100%;
+    height :40%;
+    background-image: url("../media/digital\ gesign.jpg");
+    background-size:cover;
+    background-position:center;
+    /* background-attachment:; */
+    background-repeat: no-repeat;
+
+}
+.programing_project_image {
+    width :100%;
+    height :40%;
+    background-image: url("../media/programing_project_image.jpg");
+    background-size:cover;
+    background-position:center;
+    /* background-attachment:; */
+    background-repeat: no-repeat;
+
+}
+.street_lighting_project_image {
+    width :100%;
+    height :40%;
+    background-image: url("../media/street\ light.jpg");
+    background-size:cover;
+    background-position:center;
+    /* background-attachment:; */
+    background-repeat: no-repeat;
+
+}
+.smart_car_robot_image{
+    width :100%;
+    height :50%;
+    background-image: url("../media/car\ robote.jpg");
+    background-size:cover;
+    background-position:center;
+    /* background-attachment:; */
+    background-repeat: no-repeat;
+
+}
+.project_title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+    color:#3a6cf4;
+    margin: 0 ;
+}
+.project_description
+{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding :1em ;
+
+}
+.project:hover {
+    transform :scale(1.1);
+}
+.project .project_description a {
+
+    display: inline-block;
+    
+        text-align: center;
+        background-color: #3a6cf4;
+        color: white;
+        font-size: 1.5;
+        text-decoration: none;
+        border-radius: .5em;
+        transition: .6s ease;
+        padding :.5em;
+        
+}
+.project .project_description a:hover {
+    transform :scale(1.1) ;
+    background-color: #144eee;
+}
+/* ///////////////////////////////////////// */
+/* styling my certificates */
+.my_certificates h2 {
+    font-size: 3em;
+    font-weight: 600;
+    color: #3a6cf4;
+    text-align: center;
+    margin: 2em;
+}
+
+.certificates_cards{
+    width: 90%;
+    height: auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.certificate{
+    width: 30em;
+    height: 35em;
+    box-shadow: 0px 5px 25px rgb(158, 155, 155);
+    background-color: white;
+    margin-bottom: 4em;
+    transition: .6s ease;
+    text-align: center;
+    margin: 2em ;
+    border-radius: 2em;
+
+
+}
+
+.robotics_using_arduino_image{
+    width: 100%;
+    height: 70%;
+    background-image: url("../media/Arduino.png");
+    background-size: content;
+    background-position: center;
+    /* background-attachment:; */
+    background-repeat: no-repeat;
+
+}
+
+.cerificate_title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+    color: #3a6cf4;
+    margin: 0;
+}
+
+.certificate a {
+
+    display: inline-block;
+
+    text-align: center;
+    background-color: #3a6cf4;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-radius: .5em;
+    transition: .6s ease;
+    padding: .5em;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+.Python_for_every_body_image {
+
+        width: 100%;
+        height: 70%;
+        background-image: url("../media/python\ logo.jpg");
+        background-size: content;
+        background-position: center;
+        /* background-attachment:; */
+        background-repeat: no-repeat;
+}
+
+.web_development_challenger_image {
+
+    width: 100%;
+    height: 70%;
+    background-image: url("../media/web\ development.jpg");
+    background-size: content;
+    background-position: center;
+    /* background-attachment:; */
+    background-repeat: no-repeat;
+}
+
+.certificate:hover {
+    transform: scale(1.1);
+}
+
+.certificate a:hover {
+    transform: scale(1.1);
+    background-color: #144eee;
+}
+
+.my_training {
+    height :auto ;
+    width : 100% ;
+    margin-right :auto ;
+    margin-left :auto ;
+    padding :2em ;
+    background-color: white;
+    
+
+
+}
+.my_training h2 {
+    font-weight: 700;
+    font-size: 3em;
+    text-align:center ;
+    color :#144eee ;
+
+}
+
+.my_training .training_cards {
+    height :auto ;
+    width :90% ;
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding :3em ;
+    margin-right :auto ;
+    margin-left :auto ;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.my_training .training_cards .training {
+        width: 27em;
+        height: 40em;
+        box-shadow: 0px 5px 25px rgb(158, 155, 155);
+        background-color: white;
+        margin-bottom: 4em;
+        transition: .6s ease;
+        margin-right :1em; 
+        margin-left :1em; 
+}
+
+.my_training .training_cards .training :hover {
+
+    transform: scale(1.1);
+}
+
+.my_contacts h2 {
+    font-size: 3em;
+        font-weight: 600;
+        color: #3a6cf4;
+        text-align: center;
+        margin: 2em;
+
+}
+
+.contact_cards {
+    width: 90%;
+    height: auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.contact {
+    width: 20em;
+    height: 20em;
+    box-shadow: 0px 5px 25px rgb(158, 155, 155);
+    background-color: white;
+    margin-bottom: 4em;
+    transition: .6s ease;
+    text-align: center;
+    margin: 2em;
+    border-radius :1em ;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.my_contacts .contact_cards .contact .icon {
+
+
+    font-size: 10em;
+
+   
+}

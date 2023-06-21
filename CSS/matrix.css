@@ -1,0 +1,54 @@
+.all {
+    background-image: url("../media/background_image_matrix.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+h1 {
+    font-size: 4em;
+    color: white ;
+    font-weight: 900;
+    text-align :center ;
+    margin: 3em;
+
+}
+
+.code {
+
+    height: auto;
+    width: 60%;
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    /* line-height: .5em; */
+    background-color: rgb(54, 14, 99);
+    margin-right :auto ;
+    margin-left :auto ;
+    text-align: center;
+    padding :1.5em ;
+}
+.code h2 {
+    font-size: 1.5em;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+        margin: 3em;
+}
+.code a {
+    margin :1em ;
+    padding :.5em ;
+    color :blue ;
+    background-color: white;
+    border-radius: .2em;
+    text-decoration :none ;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+
+
